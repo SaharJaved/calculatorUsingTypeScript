@@ -15,35 +15,38 @@
     <div class="buttons">
 
         <div class="button4">
-            <button onclick="digit('1');">1</button>
-            <button onclick="digit('2');">2</button>
-            <button onclick="digit('3');">3</button>
-            <button onclick="digit('4');">4</button>
+            <button onclick="cl.digit('1');">1</button>
+            <button onclick="cl.digit('2');">2</button>
+            <button onclick="cl.digit('3');">3</button>
+            <button onclick="cl.digit('4');">4</button>
         </div>
 
         <div class="button4">
-            <button onclick="digit('5');">5</button>
-            <button onclick="digit('6');">6</button>
-            <button onclick="digit('7');">7</button>
-            <button onclick="digit('8');">8</button>
+            <button onclick="cl.digit('5');">5</button>
+            <button onclick="cl.digit('6');">6</button>
+            <button onclick="cl.digit('7');">7</button>
+            <button onclick="cl.digit('8');">8</button>
         </div>
 
         <div class="button4">
-            <button onclick="digit('9');">9</button>
-            <button onclick="digit('0');">0</button>
-            <button onclick="operators('+');">+</button>
-            <button onclick="res();">=</button>
+            <button onclick="cl.digit('9');">9</button>
+            <button onclick="cl.digit('0');">0</button>
+            <button onclick="cl.operators('+');">+</button>
+            <button onclick="cl.calculation();">=</button>
         </div>
 
         <div class="button4">
-            <button onclick="operators('/');">/</button>
-            <button onclick="operators('-');">-</button>
-            <button onclick="operators('*');">*</button>
-            <button onclick="clearRes();">CE</button>
+            <button onclick="cl.operators('/');">/</button>
+            <button onclick="cl.operators('-');">-</button>
+            <button onclick="cl.operators('*');">*</button>
+            <button onclick="cl.clearRes();">CE</button>
         </div>
 
     </div>
+<div id="show">
+    <input type="text" id="showValue">
 
+</div>
 
 </div>
 
